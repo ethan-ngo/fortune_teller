@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>🔮 Fortune Teller</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="app-container">
+    <img id="oracle-img" src="https://static.vecteezy.com/system/resources/previews/000/187/123/original/fortune-teller-illustration-vector.jpg">
+    <!-- Please add your group member names in the h1 tags -->
+    <h1></h1>
+    <h2>🔮 Get Your Daily Fortune</h2>
+    <p>Enter your information to receive your daily luck prediction...</p>
+    
+    <div id="fortune-form">
+      <label>Enter your name...</label>
+      <input id='name-input' type="text"></input>
+      <br>
+      <label>And your favorite number...</label>
+      <input id='num-input' type="number"></input>
+      <br>
+      <label>And last thing you ate...</label>
+      <input id='food-input' type="text"></input>
+      <br>
+    </div>
+
+    <button id="upload-button">Consult the Oracle</button>
+
+    
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="output">
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
